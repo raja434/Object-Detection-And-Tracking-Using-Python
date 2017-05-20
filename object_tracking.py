@@ -3,21 +3,16 @@ import numpy as np
 import argparse
 import imutils
 import cv2
-
-
-
 # define the lower and upper boundaries of the "green"
 # ball in the HSV color space
 greenLower = (0,120,110)
 greenUpper = (20,255,255)
-
 # initialize the list of tracked points, the frame counter,
 # and the coordinate deltas
 pts = deque(maxlen=32)
 counter = 0
 (dX, dY) = (0, 0)
 direction = ""
-
 # if a video path was not supplied, grab the reference
 # to the webcam
 
