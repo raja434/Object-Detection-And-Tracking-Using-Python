@@ -13,7 +13,8 @@ pip install numpy
 pip install imutils
 ```
 - import cv2
- 
+
+ # Output 
  
  ![66hmwp](https://cloud.githubusercontent.com/assets/14802199/26278443/4ec790fc-3db8-11e7-9c01-e2a3bbe638bd.gif)
  
